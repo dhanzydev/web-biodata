@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 20px;
+    color: white !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #3E00FF;
+}
+
+.navbar-nav > li{
+    margin-right:50px;
+}
+
+.name {
+    font-weight: 700;
+    color: #3E00FF;
+    font-size: 50px;
+}
+
+.biodata-container {
+    background-color: #3E00FF;
+    color: white;
+}
+
+.title-biodata {
+    font-weight: 700; 
+    font-size: 40px;
+}
+
+.footer {
+    background-color: #3E00FF;
+}
+
+/* @media (max-width: 1200px) { 
+    .name {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .profile-picture {
+        height: 450px;
+        width: 450px;
+    }
+ } */
+
+@media (max-width: 991.98px) {
+    .name {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .profile-picture {
+        height: 350px;
+        width: 350px;
+    }
+
+    .description {
+        text-align: left;
+    }
+ }
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .profile-picture {
+        height: 350px;
+        width: 350px;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .biodata-picture {
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
+
+
